@@ -7,6 +7,7 @@ class Cook{
 //    let cat: String = "Veg"
 }
 print(CFGetRetainCount)
+print(CFGetRetainCount(Cook()))
 let c1 = Cook()
 print(CFGetRetainCount(c1))
 let c2 = c1
